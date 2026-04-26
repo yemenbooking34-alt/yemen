@@ -1,0 +1,83 @@
+/* Legal pages - RTL Arabic */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, 'Arabic UI Display', sans-serif;
+  line-height: 1.7;
+  color: #1a1a1a;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+  background: #fff;
+  min-height: 100vh;
+  box-shadow: 0 0 20px rgba(0,0,0,.06);
+}
+header {
+  border-bottom: 2px solid #3F6DF6;
+  padding-bottom: 16px;
+  margin-bottom: 28px;
+}
+header h1 {
+  font-size: 1.75rem;
+  margin: 0 0 4px;
+  color: #1a1a1a;
+}
+.subtitle {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+.intro {
+  margin: 0 0 24px;
+  font-size: 1.05rem;
+}
+main section {
+  margin-bottom: 28px;
+}
+main h2 {
+  font-size: 1.25rem;
+  margin: 0 0 12px;
+  color: #2c2c2c;
+}
+main h3 {
+  font-size: 1.1rem;
+  margin: 16px 0 8px;
+  color: #444;
+}
+main ul {
+  margin: 0 0 16px;
+  padding-right: 24px;
+}
+main li {
+  margin-bottom: 8px;
+}
+main p {
+  margin: 0 0 12px;
+}
+.acceptance {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f0f7f0;
+  border-radius: 8px;
+  font-weight: 600;
+}
+footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+footer a {
+  color: #3F6DF6;
+  text-decoration: none;
+  font-weight: 500;
+}
+footer a:hover {
+  text-decoration: underline;
+}
